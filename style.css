@@ -1,0 +1,481 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+body{
+    --lcolor:#fb6262;
+    --brndColor:#f94d4d;
+    --darkGray:#999696;
+    --darkGray2:#999696;
+    --white:#ffffff;
+    --white2:#ffffff;
+    --bgGray: #4a4848;
+    --inputBg: #605e5eed;
+    --bgBlack: black;
+    --fstBackground: linear-gradient(black, #222121, #000);
+    --navShadow:7px 0px 15px 0px #ffffffb2;
+}
+body.white{
+    --lcolor:#fb6262;
+    --brndColor:#f94d4d;
+    --darkGray:#757071;
+    --darkGray2:#999696;
+    --white:black;
+    --white2:#ffffff;
+    --bgGray: #4a4848;
+    --inputBg: #605e5eed;
+    --bgBlack: white;
+    --fstBackground: linear-gradient(white, rgba(0, 0, 0, 0.616),white);
+    --navShadow:7px 0px 15px 0px rgba(0, 0, 0, 0.753);
+}
+
+p{
+    font-weight: 100;
+   margin-bottom: 0;
+}
+.headingText{
+    font-size: 57px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  
+}
+.headingColor{
+    color: var(--white);
+}
+.headingColor2{
+    color: var(--white2);
+}
+
+.general_text{
+    color: var(--darkGray);
+  font-size: 16px;
+  word-spacing: 3px;
+  font-weight: 300;
+  }
+  .general_text2{
+    color: var(--darkGray2);
+  font-size: 16px;
+  word-spacing: 3px;
+  font-weight: 300;
+  }
+.pageButton{
+    padding: 12px 34px;
+    border-radius: 30px;
+    background-color: var(--lcolor);
+    color: var(--white2);
+    margin: 0 px;
+    border: none;
+  }
+.pb-70{
+    padding-bottom: 70px;
+}
+.pt-70{
+    padding-top: 70px;
+}
+.bg_card{
+    background-color: var(--bgGray);
+}
+/* first page start css from hare  */
+.firstPage{
+    background-image: var(--fstBackground);
+}
+
+.naveItem{
+  justify-content: end;
+  
+}
+.nav_time{
+    background-color: var(--bgBlack);
+    box-shadow: var(--navShadow);
+}
+.lightBtn{
+  background: transparent;
+  border: none;
+  margin-left: 25px;
+}
+.lightImg{
+    background: #fff;
+  padding: 10px;
+  border: 1px solid #797676ab;
+  border-radius: 50%;
+}
+.dBlock-mb{
+    display: block;
+}
+.dBlock-lg{
+    display: none;
+}
+.ll{
+    display: flex;
+    flex-basis: 82%;
+  justify-content: space-between;
+}
+.whiteColor{
+    color: var(--white);
+    font-weight: 400!important;
+}
+.roundborder{
+    border:none;
+    border-radius: none;
+}
+
+.navActiv{
+    background-color: var(--lcolor);
+    border-radius: 100px;
+}
+.brnadColor{
+    color: var(--brndColor);
+  font-weight: 700 !important;
+  font-size: 35px;
+  font-style: italic;
+}
+.expandbtn{
+    background-color: #fff;
+}
+
+
+.leftContainer,.rightContainer{
+    width: 100%;
+}
+.leftContainer h1{
+    color: var(--white2);
+  font-size: 70px;
+  font-weight: 900;
+  margin-top: 44px;
+}
+.leftContainer p{
+    font-size: 16px;
+  color: var(--darkGray2);
+  margin: 25px 0;
+  word-spacing: 3px;
+}
+.btnDiv{
+    display: flex;
+    justify-content: space-around;
+}
+.btnDiv button:last-child{
+    background-color: transparent;
+    border: 1px solid var(--white2);
+}
+.rightContainer{
+    display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.workout{
+    position: absolute;
+    top: 133px;
+    right: 26px;
+    padding: 17px 33px;
+    border-radius: 22px;
+    color: #fff;
+    background: #5b5757e0;
+
+}
+.workout h2{
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.workout p{
+    font-size: 13px;
+  word-spacing: 2px;
+  color: var(--darkGray2);
+}
+
+.tutorial{
+    position: absolute;
+    bottom: 66px;
+    left: 0;
+   display: flex;
+   padding: 17px 20px;
+    border-radius: 22px;
+    color: var(--white2);
+    background: #5b5757e0;
+    align-items: center;
+}
+.tutorial span{
+    width: 20px;
+    padding: 16px;
+    height: 20px;
+    display: inline-block;
+    background-color: var(--lcolor);
+    border-radius: 50%;
+}
+.tutorial div{
+    margin-left: 16px;
+}
+.tutorial div h1{
+    font-weight: 900;
+    margin-bottom: 0;
+    font-size: 30px;
+}
+.tutorial div p{
+    color: var(--darkGray2);
+  font-size: 16px;
+  word-spacing: 4px;
+}
+
+/* second page */
+.secondPage{
+    background-color: var(--bgBlack);
+    padding:72px 0;
+}
+.top{
+    color: var(--white);
+    margin: 0 auto;
+}
+
+.card-div{
+    width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.card-div img{
+    width: 200px;
+    border-radius: 50%;
+    padding: 1px;
+    border: 2px solid #000000c4;
+}
+
+.border-none{
+    border: none;
+    background: transparent;
+    color: var(--white);
+}
+.w-md-100{
+    width: 100%;
+}
+
+
+.pageCard p{
+    padding: 15px 0px;
+    font-size: 13px;
+}
+.pageCard button{
+    padding: 15px 62px;
+  margin-top: 17px;
+}
+.cardImg{
+    width: 100%;
+    height: 100%;
+}
+.cardImg img{
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* third page css hare  */
+.headSection{
+    margin-bottom: 50px;
+}
+
+.galarySection{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galarySection div span{
+    position: absolute;
+   color: var(--white2);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.fstFlex{
+    height: 192px;
+}
+.fstFlex div:first-of-type{
+    flex-basis: 50%;
+    flex-shrink: 1;
+    position: relative;
+   background:linear-gradient(#14eecfad,#14eecfad), url(./images/exercise1.jpg) no-repeat 0 0/cover;
+}
+.fstFlex div:first-of-type span{
+  color: black;
+  left: 28px;
+  bottom: 24px;
+}
+
+.fstFlex div:nth-last-of-type(2){
+    flex: 50%;
+    position: relative;
+    flex-shrink: 4;
+    background:linear-gradient(#ee14144f,#ee14144f), url(./images/exercise2.png) no-repeat center center/cover;
+}
+.fstFlex div:nth-last-of-type(2) span{
+    top: 15px;
+  left: 30px;
+}
+.fstFlex div:last-of-type{
+    flex-shrink: 1;
+    position: relative;
+    background:linear-gradient(#222121bd,#222121c5), url(./images/exercise3.png) no-repeat center center/cover;
+    display: none;
+}
+.fstFlex div:last-of-type span{
+    left: 16px;
+  bottom: 28px;
+}
+.sndFlex{
+    height: 192px;
+}
+.sndFlex div:first-of-type{
+    flex-basis: 45%;
+    flex-shrink: 1;
+    position: relative;
+   background:linear-gradient(#0f010166,#0f010166), url(./images/exercise4.png) no-repeat 0 0/cover;
+}
+.sndFlex div:first-of-type span{
+    left: 10px;
+  bottom: 10px;
+}
+
+.sndFlex div:nth-last-of-type(2){
+    flex-basis: 55%;
+    position: relative;
+    background:linear-gradient(#14ee556b,#14ee556b), url(./images/exercise5.jpg) no-repeat center center/cover;
+}
+.sndFlex div:nth-last-of-type(2) span{
+    left: 20px;
+  bottom: 20px;
+}
+.sndFlex div:last-of-type{
+    flex-basis: 30%;
+    flex-shrink: 1;
+    position: relative;
+    background:linear-gradient(#3b9d94a1,#3b9d94a1), url(./images/exercise6.jpg) no-repeat center center/cover;
+    display: none;
+}
+.sndFlex div:last-of-type span{
+    left: 20px;
+  bottom: 20px;
+}
+
+.tableContainer{
+    width: 300px;
+}
+.tableContainer h3{
+    color: var(--white2);
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.tableContainer table tr td,.tableContainer table tr th{
+    background: transparent;
+  border: 1px solid #d2c9c963;
+}
+.tableContainer table tr td{
+    color: var(--darkGray2);
+    font-size: 13px;
+}
+
+.tableContainer table tr th{
+    color: var(--white2);
+    font-size: 20;
+}
+.form_discriber{
+    margin-bottom: 40px;
+}
+.form_discriber h3{
+    color: var(--white2);
+    margin-bottom: 18px;
+    font-weight: 900;
+}
+
+.side_input{
+    background: var(--inputBg);
+    border: none;
+    font-weight: 100;
+    padding: 7px 21px;
+    color: var(--white2);
+}
+.side_input:focus{
+    background: var(--inputBg);
+    box-shadow: none;
+    color: var(--white2);
+}
+.form-control::placeholder {
+    color: rgb(232, 230, 229);
+    opacity: 1;
+  }
+
+.imgContainer{
+    position: relative;
+    margin-right: 0px;
+}
+
+.img-fluid{
+    width: 100%;
+    height: 295px;
+  object-fit: cover;
+}
+.mt-40{
+    margin-top: 40px;
+}
+.trainerDescription{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+.trainerDescription h6{
+    color: var(--white);
+    font-weight: 800;
+    font-size: 20px;
+}
+.trainerDescription p{
+    color: #dbd8d8;
+  font-size: 14px;
+}
+.p-20{
+    padding: 20px;
+}
+.footerContainer{
+    width: 100%;
+    background-color: #312f2f;
+    padding: 20px 0;
+}
+.gymDiscrip {
+    padding: 0 80px 0px 0px;
+}
+.gymDiscrip h1{
+    color: var(--lcolor);
+  font-weight: 900;
+  font-size: 70px;
+  font-style: italic;
+
+}
+
+.foterLink h3{
+    color: var(--white);
+  margin-bottom: 40px;
+  font-size: 33px;
+  font-weight: 600;
+}
+.foterLink ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.foterLink ul li a{
+    color: var(--darkGray2);
+  text-decoration: none;
+  margin-bottom: 20px;
+  display: inline-block;
+  font-size: 20px;
+}
+.foterMessages{
+    color: var(--darkGray2);
+  text-align: center;
+  border-top: 1px solid var(--darkGray2);
+  font-size: 21px;
+  padding: 46px 0 20px 0;
+  font-weight: 100;
+}
+
